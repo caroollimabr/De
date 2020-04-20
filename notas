@@ -1,0 +1,7 @@
+Strategy: um método maior para diversos objetos.
+Muito útil quando temos um conjunto de algoritmos similares e precisamos alternar entre eles em diferentes pedaços da aplicação. 
+
+Chain of Responsibility: construção de cenários - se n der certo em um, vai para outro, e assim por diante. 
+Nesse caso, precisamos de uma classe que monte essa corrente na ordem certa.
+Ideal quando há uma lista de comandos a serem executados de acordo com um cenário específico e qual outro cenário deve ser validado em seguida, caso o anterior não satisfaça a condição.
+
