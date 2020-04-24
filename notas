@@ -5,3 +5,9 @@ Chain of Responsibility: construção de cenários - se n der certo em um, vai p
 Nesse caso, precisamos de uma classe que monte essa corrente na ordem certa.
 Ideal quando há uma lista de comandos a serem executados de acordo com um cenário específico e qual outro cenário deve ser validado em seguida, caso o anterior não satisfaça a condição.
 
+Template Method: classe abstrata pai + classes filhas que ganham esse algoritmo e reparam os "buracos" (o que mais falta implementar)
+Usado quando há diferentes algoritmos que possuem estruturas parecidas.
+
+Decorator: visa juntar comportamentos separados ou quebrados em classes diferentes. Um está dentro do outro.
+
+Esses patterns podem estar juntos em uma mesma aplicação.
