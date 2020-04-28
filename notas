@@ -10,4 +10,8 @@ Usado quando há diferentes algoritmos que possuem estruturas parecidas.
 
 Decorator: visa juntar comportamentos separados ou quebrados em classes diferentes. Um está dentro do outro.
 
+State: separação de resposabilidades: ajuda a manter o controle dos estados simples e organizados através de interfaces de estado e classes que levam a implementação da interface. 
+Usado quando o controle das possíveis transições são vários e complexos, fazendo com que a implementação seja complexa.
+
+
 Esses patterns podem estar juntos em uma mesma aplicação.
