@@ -15,11 +15,10 @@ Usado quando o controle das possíveis transições são vários e complexos, fa
 
 Builder: Uma classe para construir um objeto complexo (que possui diversos atributos ou lógica de criação complexa). 
 Há uma separação da complexidade do objeto e a possibilidade de uma implementação de atributos opcionais mais facilmente.
-Quanto mais complexa é uma 
 
 Observer: Interface de ação + classes observadoras. 
 Permite que várias ações sejam executadas de forma transparente à classe principal, reduzindo o acoplamento entre as ações.
 Traz desacoplamento para as classes: elas dependem apenas da Interface. 
 Adicionar novas classes de comportamento não vai fazer o código quebrar.
 
-Esses patterns podem estar juntos em uma mesma aplicação.
+Esses patterns podem estar juntos em uma mesma aplicação, ou simplesmente não estarem quando não forem úteis.
